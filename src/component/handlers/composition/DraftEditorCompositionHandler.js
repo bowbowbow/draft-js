@@ -203,4 +203,9 @@ var DraftEditorCompositionHandler = {
   },
 };
 
+function getTextInputData () {
+  return textInputData;
+}
+
 module.exports = DraftEditorCompositionHandler;
+module.exports.getTextInputData = getTextInputData;
